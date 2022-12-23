@@ -22,5 +22,7 @@ git clone --recurse-submodules https://github.com/notpeelz/tsx-yarn-pnp-demo
 2. `cd node` and build Node using [these instructions](https://github.com/notpeelz/node/blob/v19-loader-chaining/BUILDING.md#building-nodejs-on-supported-platforms)
 
 3. Run tsx using this script: `./scripts/with_patched_node.sh`
+   
    If you wish to test using your current install of node: `./scripts/with_system_node.sh`.
+
    For manually invoking tsx via `node`, a workaround is needed (see `with_manual_node_invocation.sh`)
